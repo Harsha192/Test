@@ -13,6 +13,9 @@
  void devide(int a, int b){
 	 return (a/b);
  }
+ void remain(int a, int b){
+	 return (a%b);
+ }
 int main() {
 
   printf("Hello World\n");
@@ -20,6 +23,7 @@ int main() {
   printf(sustract(1,2));
   printf(multiply(1,2));
   printf(devide(1,2));
+  printf(remain(1,2));
   return 0;
 
 }
