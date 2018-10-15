@@ -1,20 +1,24 @@
 #include <stdio.h>
 
 
- void add(int a, int b){
+ int add(int a, int b){
 	return (a+b);
  }
- void sustract(int a, int b){
+ int sustract(int a, int b){
 	 return (a-b);
  }
- void multiply(int a, int b){
+ int multiply(int a, int b){
 	 return (a*b);
  }
- void devide(int a, int b){
+
+ float devide(int a, int b){
 	 return (a/b);
  }
- void remain(int a, int b){
+ int remain(int a, int b){
 	 return (a%b);
+
+ boolean odd(int a){
+	 return (a/2)==0 ? false : true;
  }
 int main() {
 
@@ -24,6 +28,7 @@ int main() {
   printf(multiply(1,2));
   printf(devide(1,2));
   printf(remain(1,2));
+  printf(odd(5))
   return 0;
 
 }
